@@ -16,14 +16,24 @@
   }
 }
 
+.theme-subdomain1 {
+  background-color: #FF5733;
+  color: #FFC300;
+}
+
+.theme-subdomain2 {
+  background-color: #33FF57;
+  color: #339FFF;
+}
+
+.theme-default {
+  background-color: #555555;
+  color: #888888;
+}
+
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
 }
 
 @layer utilities {
